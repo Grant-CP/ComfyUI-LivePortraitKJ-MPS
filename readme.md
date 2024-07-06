@@ -1,3 +1,13 @@
+# MPS Notes from Grant
+
+If you wish to incorporate these changes into your repo, feel free to open an issue and ask. The commits should be pretty clear, and I also label almost all changes with #HACK so a full text search will work too. 
+
+Please let me know if you decide to incorporate any of these changes into your LivePortrait implementation so I can direct people to you repository. I do not intend to maintain this repo.
+
+Some operations are simply not supported on MPS and I didn't rewrite them. Most of my changes are just to `.cuda` calls and that sort of thing. Many operations are still done on CPU, so don't expect awesome performance.
+
+On my M1 macbook 32GB it takes around 30 seconds flat + 1 second per video frame. 32 frames is 57 seconds, 600 frames is 650 seconds. VRAM usage is not dependent on video length. I never started using swap, but make sure to open up activity monitor and check if you are on a lower-end model. I'm pretty sure it only took 9 GB VRAM but I didn't profile it carefully.
+
 # ComfyUI nodes to use [LivePortrait](https://github.com/KwaiVGI/LivePortrait)
 
 
