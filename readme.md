@@ -8,6 +8,8 @@ Some operations are simply not supported on MPS and I didn't rewrite them. Most 
 
 On my M1 macbook 32GB it takes around 30 seconds flat + 1 second per video frame. 32 frames is 57 seconds, 600 frames is 650 seconds. VRAM usage is not dependent on video length. I never started using swap, but make sure to open up activity monitor and check if you are on a lower-end model. I'm pretty sure it only took 9 GB VRAM but I didn't profile it carefully.
 
+You may also need to run comfyui with `PYTORCH_ENABLE_MPS_FALLBACK=1 python main.py` (you can also set the fallback as a env variable in other ways), where main.py is the comfyui file. It's possible that it is not necessary macbooks after M1. 
+
 # ComfyUI nodes to use [LivePortrait](https://github.com/KwaiVGI/LivePortrait)
 
 
