@@ -5,6 +5,8 @@ import folder_paths
 import comfy.model_management as mm
 import comfy.utils
 
+assert torch.backends.mps.is_available(), "You are trying to use a Apple Silicon node on a Windows or Linux device. Download the original node from https://github.com/kijai/ComfyUI-LivePortraitKJ."
+
 script_directory = os.path.dirname(os.path.abspath(__file__))
 
 from .liveportrait.config.argument_config import ArgumentConfig
