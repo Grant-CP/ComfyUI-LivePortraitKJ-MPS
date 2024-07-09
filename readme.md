@@ -1,3 +1,7 @@
+# THIS IS FOR M1/M2/M3 Macbooks ONLY. This will not work on windows or linux computers.
+
+The original repo which works with Nvidia GPUs is here: https://github.com/kijai/ComfyUI-LivePortraitKJ
+
 # MPS Notes from Grant
 
 If you wish to incorporate these changes into your repo, feel free to open an issue and ask. The commits should be pretty clear, and I also label almost all changes with #HACK so a full text search will work too. 
