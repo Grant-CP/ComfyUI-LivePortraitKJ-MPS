@@ -1,3 +1,10 @@
+# All Changed Merged to main Kijai nodes - Do Not Use
+
+Do not use these nodes any more. Use the nodes at https://github.com/kijai/ComfyUI-LivePortraitKJ. They are more up to date and have all of the MPS support code now.
+
+---
+# Everything below is kept as an archive
+
 # THIS IS FOR M1/M2/M3 Macbooks ONLY. This will not work on windows or linux computers.
 
 The original repo which works with Nvidia GPUs is here: https://github.com/kijai/ComfyUI-LivePortraitKJ
