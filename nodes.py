@@ -5,7 +5,7 @@ import folder_paths
 import comfy.model_management as mm
 import comfy.utils
 
-print("\033[31m \n---\nFrom: ComfyUI-LivePortraitKJ-MPS\n---\nTHIS REPO IS DEPRECATED. ALL MPS CHANGES ARE MERGED INTO https://github.com/kijai/ComfyUI-LivePortraitKJ\n---\033[0m")
+print("\033[31m \n---\nFrom: ComfyUI-LivePortraitKJ-MPS\n---\nTHIS REPO IS DEPRECATED. ALL MPS CHANGES ARE MERGED INTO https://github.com/kijai/ComfyUI-LivePortraitKJ\nIgnore any onnxruntime-gpu install errors. Macs just use onnxruntime.\n---\033[0m")
 
 assert torch.backends.mps.is_available(), "You are trying to use a Apple Silicon node on a Windows or Linux device. Download the original node from https://github.com/kijai/ComfyUI-LivePortraitKJ."
 
